@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "e2445636-85dc-4f85-9782-fc97ae13e7bc",
+		"name": "API para obter distância",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15252990"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/buscar/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cidadeAtual\": \"Manaus\",\n    \"enderecoAtual\": \"Teatro Amazonas\",\n    \"cidadeDestino\": \"Manaus\",\n    \"enderecoDestino\": \"Amazonas Shopping\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/buscar/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"buscar",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
