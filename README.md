@@ -3,7 +3,7 @@
 O google atualmente cobra por consultas para obter distância em km de um ponto ao outro, com essa ferramenta você poderá fazer isso de graça!
 
 Explicação:
-O projeto abre uma página em silencioso com o google maps e traça uma rota do ponto A ao ponto B e retorna via API.
+O projeto abre uma página em silencioso com uma página de consulta de placas e lê seus elementos e transforma em json para retorno.
 
 Pra usar basta:
 
@@ -17,12 +17,20 @@ node server.js
 
 Para utilizar basta fazer uma chamada para api enviando os seguintes dados no body:
 
-Cidade atual;
-Endereço atual;
-Cidade de destino;
-Endereço de destino;
+Placa;
+No formato XXX-XXXX
 
-Após essa chamada a API retornará a distância em quilômetros.
+Após essa chamada a API retornará um Json parecido com.
+{
+    "Marca": "GM",
+    "Modelo": "CELTA 4P SPIRIT",
+    "Cor": "Vermelha",
+    "Ano de fabricação": "2011",
+    "Ano do modelo": "2011",
+    "Placa": "NOV1996",
+    "Combustível": "Alcool / Gasolina",
+    "Nacionalidade": "Nacional"
+}
 
 Espero que essa ferramenta seja útil para você!
 

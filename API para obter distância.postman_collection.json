@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "e2445636-85dc-4f85-9782-fc97ae13e7bc",
-		"name": "API para obter distância",
+		"name": "API para obter dados pela placa",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "15252990"
 	},
@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"cidadeAtual\": \"Manaus\",\n    \"enderecoAtual\": \"Teatro Amazonas\",\n    \"cidadeDestino\": \"Manaus\",\n    \"enderecoDestino\": \"Amazonas Shopping\"\n}",
+					"raw": "{\n\"placa\": \"ABC-1234\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
