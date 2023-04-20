@@ -31,7 +31,7 @@ Após essa chamada a API retornará um Json parecido com.
     "Combustível": "Alcool / Gasolina",
     "Nacionalidade": "Nacional"
 }
-
+A API usa um site você pode ter uma limitação, cerca de 50 consultas diárias.
 Espero que essa ferramenta seja útil para você!
 
 Contribua com melhorias!
